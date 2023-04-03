@@ -1,5 +1,5 @@
 {
-  "name": "nwtimerbot",
+  "name": "nw_timerbot",
   "version": "1.0.0",
   "description": "A free discord bot to call the respawn time of wars in the NEW WORLD game.",
   "type": "module",
@@ -10,21 +10,11 @@
     "prod": "node src/index.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.7.0",
-    "@discordjs/voice": "^0.9.0",
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.1",
-    "ffmpeg-static": "^4.4.1",
-    "node-fetch": "^3.2.10",
-    "sodium": "^3.0.2",
-    "uuid": "^8.3.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NicoVisci/NW_TimerBot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/NicoVisci/NW_TimerBot/issues"
-  },
-  "homepage": "https://github.com/NicoVisci/NW_TimerBot#readme"
+    "@discordjs/opus": "0.9.*",
+    "@discordjs/voice": "0.15.*",
+    "discord.js": "13.6.*",
+    "dotenv": "16.0.*",
+    "libsodium-wrappers": "0.7.*",
+    "uuid": "9.0.*"
+  }
 }
